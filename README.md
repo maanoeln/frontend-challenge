@@ -1,84 +1,46 @@
-# Frontend Challenge
+# Getting Started with Create React App
 
-Neste challenge você vai criar uma aplicação web do famoso jogo Jokenpo ou Pedra Papel Tesoura.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-As regras do jogo são:
-- Se os dois jogares selecionarem a mesma jogada, é um empate
-- Pedra ganha de tesoura
-- Tesoura ganha de papel
-- Papel ganha de pedra
+## Available Scripts
 
-[Link do figma](https://www.figma.com/file/cZbM9GaHGZK7XeXWpv3iyE/Frontend-Challenge?node-id=4%3A2)
+In the project directory, you can run:
 
-## O que deve estar implementado
+### `npm start`
 
-- Placar do jogador
-- Possibilidade de selecionar sua própria jogada
-- Utilizar uma jogada aleatória por parte do desafiante
-  - Este desafiante deve ser um bot
-  - O bot deve ter uma inteligência básica, ou seja, ele deve escolher uma jogada aleatória
-- Exibir o resultado do jogo
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Multiplayer (extra)
-Implemente primeiro a versão singleplayer e depois a multiplayer, a versão multiplayer é um requisito extra, por isso a organização do código é importante, para que seja possível implementar a versão multiplayer, com poucas alterações no código singleplayer.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-- Criar salas de jogo para dois jogadores competirem em tempo real
-- Exibir o status da sala e permitir que jogadores aguardem adversários
-- Mostrar o placar compartilhado entre os dois jogadores
-- Utilizar bibliotecas como Socket.IO ou WebSockets nativo
+### `npm test`
 
-## :heavy_exclamation_mark: Como deve estar implementado
-Requisitos obrigatórios de implementação:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- React
-- Typescript
+### `npm run build`
 
-## Como pode estar implementado
-Recursos que podem ser utilizados para realizar a implementação:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- Frameworks baseado em React como Next
-- Bibliotecas de componentes (Material, Bootstrap, Chakra, etc)
-- Redux, Mobx, etc
-- Bibliotecas de terceiros (axios, moment, date-fns, lodash, etc)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## :heavy_exclamation_mark: O que será avaliado
-- Priorização de implementação
-- Componentização
-- Manutenibilidade
-- Testabilidade
-- Forma de entrega conforme o proposto
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## :cherries: Ganha mais pontos 
-- Terminar dentro do tempo
-- Responsividade (mobile-fist)
-- Implementar testes unitários
-- Implementar alguma forma de deploy
-- Persistência (pode ser em localStorage, ou firebase e afins)
-- Chamadas HTTP para server
-- Adicionar funcionalidade multiplayer utilizando sockets
+### `npm run eject`
 
-## Como entregar
-A entrega será através de um fork, então você deve:
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-1. Realizar um fork do repositório (não clone diretamente)
-2. Implementar o teste no seu fork
-3. Enviar um pull-request para este repositório
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## :bangbang: Atenção
-Bastante atenção no processo de entrega, este é um critério de avaliação.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-## Inspiração
-Este desafio foi fortemente inspirado no desafio do Frontendmentor, disponível nesse [link](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH)
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-### Divirta-se! :rocket:
+## Learn More
 
----
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### Style Guide:
-- Font: roboto
-- Background Color: #2C3E50
-- yellow: #F1C40F
-- blue: #2980B9
-- green: #27AE60
-- red: #E74C3C
-- Imagens na pasta assets
+To learn React, check out the [React documentation](https://reactjs.org/).
